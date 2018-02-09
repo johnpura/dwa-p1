@@ -21,6 +21,8 @@ $dailyQuote = array_rand ($quotes, 1);
 		<title>DWA | Project 1</title>
 		<meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Parisienne" rel="stylesheet">
         <!-- CSS -->
