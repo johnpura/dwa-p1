@@ -1,0 +1,49 @@
+/*
+	custom.css by John Pura
+	john.pura@comcast.net
+	Custom stylesheet for DWA Project 1
+*/
+
+/* Reset */
+
+
+/* Global */
+body {
+    font-size: 100%;
+    background-color: azure;
+}
+
+.page-wrapper {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+article h1 {
+    font-family: 'Bree Serif', serif;
+    font-weight: 100;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+article p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+blockquote {
+    color: slategrey;
+    border-left-color: slateblue;
+}
+
+blockquote p {
+    font: 400 1.6em 'Parisienne', cursive; 
+}
+
+blockquote footer {
+    font: 100 2em 'Montserrat', sans-serif; 
+}
