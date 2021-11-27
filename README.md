@@ -1,10 +1,25 @@
-# Project 1
-+ By: John Pura
-+ Production URL: <http://dwa-p1.dumbgood.life/>
+# Random Quote Generator
 
-## Outside Resources
-Google Fonts
+Displays the "Quote of the Day" from a list of quotes stored in an array. 
 
+## Installation
 
-## Project Description
-A single-page website that displays my name, a personal photo, a brief description about myself, and random quote generated with PHP
+Clone the project into you web root.
+
+```
+git clone git@github.com:johnpura/dwa-p1.git quote-of-the-day
+```
+
+## Usage
+
+Navigate to `http://localhost/quote-of-the-day/` in a browser to see the quote. 
+
+A quote is generated upon every page refresh.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

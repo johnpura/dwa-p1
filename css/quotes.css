@@ -1,8 +1,9 @@
-/*
-	custom.css by John Pura
-	john.pura@comcast.net
-	Custom stylesheet for DWA Project 1
-*/
+/**
+ * Styles for DWA Project 1
+ *
+ * @author John Pura
+ * @version 1.0.0
+ */
 
 /* Reset */
 html, body, div, span, applet, object, iframe,
@@ -25,6 +26,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -49,34 +51,35 @@ table {
 	border-spacing: 0;
 }
 
-/* Basic */
+/**
+ * Custom styles 
+ */
 body {
     font-size: 100%;
     background-color: azure;
 }
 
-.page-wrapper {
+main {
     text-align: center;
-    width: 50%;
+    width: 40%;
     height: 100%;
     padding: 25px;
     margin: 0 auto;
 }
 
-article h1 {
-    font: 100 3em 'Bree Serif', serif;
+h1 {
+    font: 400 3em 'Bree Serif', serif;
     text-transform: uppercase;
     margin: 10px 0;
 }
 
-article p {
-    font: 400 1.2em 'Montserrat', sans-serif;
-    text-align: justify;
-}
-
 blockquote {
-    font: 400 2em 'Parisienne', cursive; 
-    color: darkgray;
+    font: 400 2.2em 'Parisienne', cursive; 
+    color: #464646;
     margin: 30px 0;
     padding: 0 30px;
+}
+
+figcaption {
+    font: 200 1.2em 'Bree Serif', serif;
 }
